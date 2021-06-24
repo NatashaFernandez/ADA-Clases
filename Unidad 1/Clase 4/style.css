@@ -1,0 +1,31 @@
+/* esto es un comentario, no se muestra o no se visualiza en la web/
+p{
+       color: red;
+       text-align: center;
+       word-spacing: none;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       background-color: black;
+       text-transform: uppercase;
+       text-shadow: 2px 2px white;
+      / font-size: 100px;/
+    }
+h1{
+        color:green;
+        border-style: dotted;
+        text-shadow: 2px 2px white;
+    }
+body{
+    /background-color: coral;
+    background-image:url("imagen.jpg");
+}*/
+
+a:link{
+    color:white;
+}
+a:link{
+    text-decoration: none;
+}
+
+a:link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
