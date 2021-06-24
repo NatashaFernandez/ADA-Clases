@@ -1,0 +1,8 @@
+@font-face {
+    font-family:"Mulish-Italic-VariableFont_wght.ttf" ;
+    src: url(../Mulish/Mulish-Italic-VariableFont_wght.ttf);
+}
+body{
+    background-color: #FAF1E6;
+    color: #064420;
+}
