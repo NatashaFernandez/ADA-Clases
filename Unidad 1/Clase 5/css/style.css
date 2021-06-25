@@ -6,3 +6,15 @@ body{
     background-color: #FAF1E6;
     color: #064420;
 }
+h1{
+    background-image:url(../img/depositphotos_63653511-stock-illustration-abstract-colorful-music-notes.jpg) ;
+}
+span{
+    color: #E4EFE7;
+}
+.rojo{
+    background-color: red;
+}
+.verde{
+    background-color: green;
+}
