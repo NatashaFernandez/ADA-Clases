@@ -9,6 +9,9 @@ body{
 h1{
     background-image:url(../img/depositphotos_63653511-stock-illustration-abstract-colorful-music-notes.jpg) ;
 }
+/*tr, td{
+    doble selector
+}*/
 span{
     color: #E4EFE7;
 }
@@ -18,3 +21,7 @@ span{
 .verde{
     background-color: green;
 }
+tr:hover{
+    color: #E4EFE7;
+}
+/*.clase= propiedades creadas  :seudoclase= viene predeterminada y podes modificar*/
