@@ -13,6 +13,44 @@
         <p>contraseña:</p>
         <input type="password" name="contraseña"  maxlength="30" >
     </form>
+    <form action="procesa.php" method="POST">
+        <p>por favor seleccione una de las opciones:</p>
+        <br>
+        <input type="radio" name="genero" value="rock">Rock
+        <input type="radio" name="genero" value="jazz">Jazz
+        <input type="radio" name="genero" value="pop">Pop
+    </form>
+    <form action="procesada.php" method="POST">
+        <p>por favor seleccione una de las opciones:</p>
+        <br>
+        <input type="checkbox" name="genero" value="rock">Rock
+        <input type="checkbox" name="genero" value="jazz">Jazz
+        <input type="checkbox" name="genero" value="pop">Pop
+    </form>
+    <form action="procesa.php" method="POST">
+        <p>que dispositivo usas para ver las noticias:</p>
+            <br>
+            <select name="dispositivos">
+                <option value="pc">PC</option>
+                <option value="tablet">Tablet</option>
+                <option value="celular">Celular</option>
+            </select>
+    </form>
+    <form action="procesa.php" method="POST">
+
+        <p>que dispositivo usas para ver las noticias:</p>
+        <br>
+        <select name="dispositivos" multiple="multiple">
+            <option value="pc">PC</option>
+            <option value="tablet">Tablet</option>
+            <option value="celular">Celular</option>
+            <option value="notebook">Notebook</option>
+            <option value="ereader">E-reader</option>
+        </select>
+    </form>
+
+Who can see your messages? Recording On
+Para:
 
 </body>
 </html>
