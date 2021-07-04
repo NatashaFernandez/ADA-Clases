@@ -5,25 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--<link rel="stylesheet" href="style.css">-->
 </head>
 <body>
     <!-- Formulario Registro-->
-    <div>
+    <fieldset class="contenedor">
+        <legend class="titulo">Registro de usuario</legend>
         <form method="POST" action="procesa.php">
-            <label>Nombre</label>
-            <input type="text" name="username" maxlength="30" placeholder="Ada" required="required">
-            <label>Apellido</label>
-            <input type="text" name="surname" maxlength="30" placeholder="Lovelace" required="required">
-            <label>DNI</label>
-            <input type="number" name="DNI" minlength="8" maxlength="8" placeholder="12345678" required="required">
-            <label>Email</label>
-            <input type="email" name="email" maxlength="30" placeholder="ada.lovelace123@gmail.com" required="required">
-            <label>contraseña</label>
-            <input type="password" name="contraseña" placeholder="contraseña" minlength="8" maxlength="16" required="required">
-            <label>Acepto los Terminos y Condiciones</label>
-            <input type="checkbox" name="terminos-y-condiciones" value="acepto">
-            <input type="submit" value="upload">
+            <label>Nombre</label><br>
+            <input type="text" name="username" maxlength="30" placeholder="Ada" required="required"><br>
+            <label>Apellido</label><br>
+            <input type="text" name="surname" maxlength="30" placeholder="Lovelace" required="required"><br>
+            <label>DNI</label><br>
+            <input type="text" name="DNI" minlength="8" maxlength="8" pattern="\d{8}" placeholder="12345678" required="required"><br>
+            <label>Email</label><br>
+            <input type="email" name="email" maxlength="30" placeholder="adalovelace@gmail.com" required="required"><br>
+            <label>Contraseña</label><br>
+            <input type="password" name="contraseña" placeholder="contraseña" minlength="8" maxlength="16" required="required"><br>
+            <div id="terms">
+                <input type="checkbox" name="terminos-y-condiciones" value="acepto"><br>
+                <span>Acepto los Terminos y Condiciones</span>
+            </div>
+            <input id="submit" type="submit" value="Confirmar">
         </form>
-    </div>
+    </fieldset>
 </body>
 </html>
