@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!--<link rel="stylesheet" href="style.css">-->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Formulario Registro-->
-    <fieldset class="contenedor">
-        <legend class="titulo">Registro de usuario</legend>
-        <form method="POST" action="procesa.php">
+    <form class="contenedor" method="POST" action="procesa.php">
+        <fieldset >
+            <legend class="titulo">Registro de usuario</legend>
             <label>Nombre</label><br>
             <input type="text" name="username" maxlength="30" placeholder="Ada" required="required"><br>
             <label>Apellido</label><br>
@@ -27,7 +27,7 @@
                 <span>Acepto los Terminos y Condiciones</span>
             </div>
             <input id="submit" type="submit" value="Confirmar">
-        </form>
-    </fieldset>
+        </fieldset>
+    </form>
 </body>
 </html>
