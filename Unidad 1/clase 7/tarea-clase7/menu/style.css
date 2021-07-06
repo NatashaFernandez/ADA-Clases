@@ -30,7 +30,6 @@ ul{
     float:left;
     text-align: center;
 }
-
 #menu>li>ul{
 
     display:none;

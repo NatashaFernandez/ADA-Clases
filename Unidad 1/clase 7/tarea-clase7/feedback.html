@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Formulario Feedback-->
+    <form class="contenedor" method="POST" action="procesa.php">
+        <fieldset >
+            <legend class="titulo">Tus datos</legend>
+            <label>Correo Electronico</label><br>
+            <input type="email" name="email" maxlength="30" placeholder="adalovelace@gmail.com" required="required"><br>
+            <label>Nombre</label><br>
+            <input type="text" name="username" maxlength="30" placeholder="Ada" required="required"><br>
+        </fieldset>
+        <fieldset>
+            <legend class="titulo">Tu Reseña</legend>
+            <label>Como te enteraste de nosotros?</label>
+            <select name="nosotros" class="texto">
+                <option value="google">Google</option>
+                <option value="redes sociales">Redes Sociales</option>
+                <option value="empresa">Empresa</option>
+            </select>
+            <br>
+            <label>Visitarias de nuevo</label>
+            </br>
+            <input type="radio" id="OpcionSiVisitaria" name="opciones" value="Si">
+            <label for="OpcionSiVisitaria">Si</label>
+            <input type="radio" id="OpcionNoVisitaria" name="opciones" value="No">
+            <label for="OpcionNoVisitaria">No</label>
+            <input type="radio" id="OpcionNoVisitaria" name="opciones" value="Quizas">
+            <label for="OpcionQuizasVissitaria">Quizas</label>
+            </br>
+            <label>Comentarios</label>
+            <textarea name="Comentarios" cols="30" rows="10"></textarea>
+            <input id="submit" type="submit" value="Enviar Opinion">
+        </fieldset>
+    </form>
+</body>
+</html>
