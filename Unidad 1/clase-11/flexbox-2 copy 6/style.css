@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+nav{
+    background-color: darkorange;
+    padding: 1rem;
+}
+main{
+    background-color: darkseagreen;
+    height: 100vh;
+    width: 80vw;
+}
+footer{
+    background-color: deeppink;
+}
+.yosoylascolumnas{
+    display: flex;
+    flex-direction: column;
+}
