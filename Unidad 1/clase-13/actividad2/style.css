@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 50px 0;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    color: white;
+}
+
+.contenedor{
+    display: flex;
+}
+
+#aside1{
+    background-color: white;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+section div{
+    background-color: lightblue;
+    flex-grow: 3;
+    padding: 20px;
+}
+
+footer{
+    padding: 10px 0;
+    width: 100%;
+    background-color: greenyellow;
+    text-align: center;
+}
