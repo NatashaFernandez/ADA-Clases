@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 10px 0;
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+}
+section div{
+    background-color: lightblue;
+}
+
+#aside1-color{
+    background-color: white;
+    width: 100%;
+}
+
+#aside2-color{
+    background-color: palevioletred;
+    width: 100%;
+}
+footer{
+    padding: 10px 0;
+    width: 100%;
+    background-color: greenyellow;
+    text-align: center;
+}
