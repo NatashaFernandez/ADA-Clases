@@ -7,5 +7,5 @@ while (i < 5) {
     total = total + altura;
     i++;
 }
-promedio = total / i;
+promedio = total / 5;
 alert('El promedio de alturas es: ' + promedio);
